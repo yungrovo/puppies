@@ -1,0 +1,161 @@
+/*look at all deez lynx*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
+h1{
+    text-align: center;
+    font-family: 'Rubik Bubbles';
+    padding: 20px 0 20px 0;
+}
+
+body {
+  font-family: Lato, sans-serif;
+  margin: 0;
+  background-color: #f0eaec;
+}
+
+/*I couldn't center the nav text with nav ul, so I did it in nav*/
+nav{
+  background-color: #421f34;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.2em;
+}
+
+nav ul{
+  list-style-type:none;
+  margin: 20px;  
+}
+
+nav li{
+  display:inline;
+}
+
+nav a{
+  text-decoration:none;
+  padding: 20px;
+}
+
+nav a:link{
+  color:#ffc1d4;
+}
+nav a:visited{
+  color:#ffc1d4;
+}
+nav a:hover{
+  color:tomato;
+}
+nav a:active{
+  color:violet;
+}
+
+
+
+main{
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.home-hero{
+  background-image:url(images/header.jpg);
+  height: 475px;
+  background-size: cover;
+  background-position: center;
+  color: #042837;
+  padding: 10px 10px 10px 30px;
+
+}
+
+blockquote{
+  margin: 30px;
+}
+
+h2{
+  font-family: 'Rubik Bubbles';
+}
+
+p > a:link{
+  color: #421f34;
+  text-decoration: underline;
+}
+
+
+img{
+  display: block;
+  margin: 0 auto;
+
+}
+
+
+a:link{
+  color: #ffc1d4;
+}
+
+a:visited{
+  color: #ffc1d4;
+}
+
+a:hover{
+  color: lightcoral;
+}
+
+a:active{
+  color: darkorange;
+}
+
+
+.col-sm-4{
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+  padding: 10px;
+  background-color: #421f34;
+}
+
+.fa{
+  font-size: 4em;
+}
+
+small{
+  color: white;
+}
+
+
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+    font-size: 3.5em;
+ }
+.mobile{
+  display: none;
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+    h1{
+        font-size: 1.8em;
+    }
+    .desktop{
+      display: none;
+    }
+    .mobile{
+      display: block;
+    }
+   
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+    h1{
+        font-size: 1.5em;
+    }
+    .desktop{
+      display: none;
+    }
+    .mobile{
+      display: block;
+    }
+}
